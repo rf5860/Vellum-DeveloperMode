@@ -8,7 +8,6 @@ namespace DeveloperMode
     {
         public override void OnInitializeMelon()
         {
-            HarmonyLib.Harmony harmony = new HarmonyLib.Harmony("com.rjf.vellum.alwaysdev");
             MelonLogger.Msg("VellumMod has started!");
         }
 
